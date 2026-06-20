@@ -1,62 +1,30 @@
-# Projects Repository
+# Cyber-and-Code-Projects
 
-Centralized organization for all personal projects: cybersecurity tools, learning projects, and utilities.
+A single, organized home for my personal projects from my cyber security and programming studies.
+Everything is grouped by category so each project is easy to find.
 
-## 📁 Structure
+## How this repo is organized
 
-Projects are organized by category for easy navigation and discovery.
+Each numbered folder is a **category**. Inside each category are the actual **projects**, and every project has its own README explaining what it does and how to run it.
 
-### 📚 Learning Projects
-School/course-related projects and assignments
-- **JS_First_HomeWork** - JavaScript basics and loops (Cybersecurity course)
--   - Files: Functions & Loops exercises
-    -   - Language: JavaScript
-     
-        -   ### 🔐 Cybersecurity & Security Tools
-        -   Tools built for security testing and encryption
-        -   - **XOR_Encrypter** - Simple encryption/decryption utility
-            -   - Files: XOR cipher implementation
-                -   - Language: Python
-                 
-                    -   - **my_payloads** - Collection of security-related scripts and payloads
-                        -   - Type: Private repository (educational/testing)
-                            -   - Language: Python
-                             
-                                - ### 🛠️ Utilities & Applications
-                                - General-purpose tools and applications
-                                - - **TCP_Chat_Server** - Network chat application
-                                  -   - Description: Python chat platform for multi-user communication
-                                      -   - Language: Python
-                                          -   - Status: 1 star, 1 fork
-                                           
-                                              -   ### 📖 General Learning
-                                              -   Miscellaneous learning and experimental projects
-                                              -   - **Python_Calculators** - Collection of Python calculator projects
-                                                  -   - Files: Various calculator implementations (subnetting, maximum calculator, homework)
-                                                      -   - Language: Python
-                                                       
-                                                          - ---
+| Category | What's inside |
+|----------|---------------|
+| [`1-learning-projects/`](./1-learning-projects) | Early coursework and practice exercises |
+| [`2-cybersecurity-tools/`](./2-cybersecurity-tools) | Security-focused scripts and tools |
+| [`3-utilities/`](./3-utilities) | Practical, reusable programs |
+| [`4-general-learning/`](./4-general-learning) | General programming practice |
 
-                                                          ## 🚀 Getting Started
+## Projects at a glance
 
-                                                          Each project folder contains:
-                                                          - Source code files
-                                                          - - README (when applicable) with specific instructions
-                                                            - - Any configuration or dependency files
-                                                             
-                                                              - ## 📝 How to Add New Projects
-                                                             
-                                                              - 1. Create a new folder with a descriptive project name
-                                                                2. 2. Add your project files
-                                                                   3. 3. Include a brief README if needed
-                                                                      4. 4. Update this main README with a link and description
-                                                                        
-                                                                         5. ## 📌 Notes
-                                                                        
-                                                                         6. - This is a personal portfolio of learning and development projects
-                                                                            - - See individual project folders for detailed documentation
-                                                                              - - Some projects are experimental or course-related
-                                                                               
-                                                                                - ---
+- **JavaScript Homework** — `1-learning-projects/js-homework/` — interactive functions & loops exercises (Node.js)
+- **XOR Encrypter** — `2-cybersecurity-tools/xor-encrypter/` — obfuscates a payload with XOR + base64 (study tool)
+- **TCP Chat Server** — `3-utilities/tcp-chat-server/` — multi-user chat over TCP sockets (server + client)
+- **Python Calculators** — `4-general-learning/python-calculators/` — max-number, basic calculator, and subnetting tools
 
-                                                                                **Last Updated:** June 2026
+## Adding a new project later
+
+1. Pick the category folder it belongs to (or create a new numbered one).
+2. Make a new folder inside it for your project.
+3. Add your code and a short `README.md` describing it.
+
+That's it — the structure stays clean and everything stays in one place.
